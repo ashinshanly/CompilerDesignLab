@@ -16,7 +16,7 @@ void check(){
 	strcpy(action_reduce, "REDUCE");
 
 	for(k=0; k<length; k++){
-		if(stack[k]=='4'){                                               //Checking for E->4
+		if(stack[k]=='4'){                                               // Checking for E->4
 			stack[k]='E';
 			stack[k+1]='\0';
 
@@ -26,7 +26,7 @@ void check(){
 	}
 
 	for(k=0; k<length-2; k++){
-		if(stack[k]=='2' && stack[k+1]=='E' && stack[k+2]=='2'){           //Checking for E->2E2
+		if(stack[k]=='2' && stack[k+1]=='E' && stack[k+2]=='2'){           // Checking for E->2E2
 			stack[k]='E';
 			stack[k+1]='\0';
 			stack[k+2]='\0';
@@ -38,7 +38,7 @@ void check(){
 	}
 
 	for(k=0; k<length-2; k++){
-		if(stack[k]=='3' && stack[k+1]=='E' && stack[k+2]=='3'){           //Checking for E->3E3
+		if(stack[k]=='3' && stack[k+1]=='E' && stack[k+2]=='3'){           // Checking for E->3E3
 			stack[k]='E';
 			stack[k+1]='\0';
 			stack[k+2]='\0';
