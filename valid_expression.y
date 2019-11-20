@@ -29,4 +29,4 @@ printf("Expression: ");
 yyparse();
 if(valid) { printf("Valid Expression!"); }
 }
-yywrap(){}
+
