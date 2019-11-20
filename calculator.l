@@ -8,7 +8,7 @@ extern int yylval;
 yylval=atoi(yytext);
 return num;
 }
-[\t] { ; }
+[ \t] { ; }
 [\n] { return 0; }
 . { return yytext[0]; }
 %%
