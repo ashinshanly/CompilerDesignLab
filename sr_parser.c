@@ -8,7 +8,7 @@ E –> 4
 #include<stdlib.h>
 #include<string.h>
 
-char stack[10], input[10], action_shift[10], action_reduce[10], str[10];
+char stack[10], input[10], action_shift[10], action_reduce[10];
 int i=0, j=0, k=0, length=0;
 
 
